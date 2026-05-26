@@ -1,4 +1,0 @@
-[build]
-  base = "skillshare-liu"
-  command = "npm run build"
-  publish = "skillshare-liu/build"
