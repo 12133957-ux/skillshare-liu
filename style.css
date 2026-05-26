@@ -1,0 +1,41 @@
+:root{
+  --liu-green: #2e7d32;
+  --liu-red: #d32f2f;
+  --white: #ffffff;
+}
+body{font-family: Arial, Helvetica, sans-serif; background: #f9f9f9;}
+
+.navbar {
+    background: var(--liu-green);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    border-bottom: 5px solid var(--liu-red);
+    font-weight: 900;
+}
+.logo{
+    font-size: larger;
+    color: #f9f9f9;
+}
+.nav-links{display: flex; list-style: none;}
+.nav-links li a{color: white;text-decoration: none;margin-left: 20px;}
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background: white;
+    font-variant: normal;
+}
+.btn{
+    display: inline-block;
+    background: var(--liu-red);
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+@media(max-width: 600px){
+    .navbar{flex-direction: column;}
+    .nav-links{margin-top: 15px;}
+}
